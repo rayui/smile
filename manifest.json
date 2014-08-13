@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Smile statement downloader",
+  "version": "0.0.1",
+  "description": "Download statements from Smile in QIF format",
+  "icons": {
+		"48": "icon.png"	
+	},
+	"page_action": {
+		"default_icon": {
+			"19": "icon.png"
+		},
+		"default_title": "Smile statement downloader" 
+	},
+	"background": {
+		"scripts": ["main.js", "vendor/underscore.js", "vendor/mustache.min.js"],
+		"persistent": false
+	},
+	"permissions": [ 
+		"tabs",
+		"declarativeContent",
+		"https://banking.smile.co.uk/SmileWeb/*"
+	]
+}
