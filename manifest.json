@@ -1,14 +1,18 @@
 {
   "manifest_version": 2,
   "name": "Smile statement downloader",
+	"short_name": "Smile statement downloader",
   "version": "0.0.1",
   "description": "Download statements from Smile in QIF format",
   "icons": {
-		"48": "icon.png"	
+		"48": "icon_48.png",
+		"128": "icon_128.png"
 	},
 	"page_action": {
 		"default_icon": {
-			"19": "icon.png"
+			"19": "icon_19.png",
+			"48": "icon_48.png",
+			"128": "icon_128.png"
 		},
 		"default_title": "Smile statement downloader" 
 	},
